@@ -161,4 +161,18 @@
       query: '',
       type: 'textbox',
     },
+  constant(
+    name,
+    query,
+  )::
+    {
+      current: {
+        selected: false,
+        text: query,
+        value: query,
+      },
+      name: name,
+      query: query,
+      type: 'constant',
+    },
 }

@@ -28,6 +28,8 @@
     ],
     colorBackground=false,
     colorValue=false,
+    colorPrefix=false,
+    colorPostfix=false,
     thresholds='',
     valueMaps=[
       {
@@ -111,6 +113,8 @@
       [if timeFrom != null then 'timeFrom']: timeFrom,
       colorBackground: colorBackground,
       colorValue: colorValue,
+      colorPrefix: colorPrefix,
+      colorPostfix: colorPostfix,
       colors: colors,
       gauge: {
         show: gaugeShow,

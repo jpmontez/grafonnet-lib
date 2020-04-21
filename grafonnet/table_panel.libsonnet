@@ -32,6 +32,7 @@
     sort=null,
     time_from=null,
     time_shift=null,
+    font_size='100%',
   ):: {
     type: 'table',
     title: title,
@@ -45,6 +46,7 @@
     columns: columns,
     timeFrom: time_from,
     timeShift: time_shift,
+    fontSize: font_size,
     [if sort != null then 'sort']: sort,
     [if description != null then 'description']: description,
     [if transform != null then 'transform']: transform,
